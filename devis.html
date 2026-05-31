@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de devis | H2 EAUX SERVICES</title>
+    <meta name="description" content="Demandez un devis gratuit à H2 EAUX SERVICES pour l'entretien de copropriétés, bureaux, commerces, remise en état ou relevé de compteurs dans le Val-de-Marne.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo/logo_h2eaux_services_v1.png" alt="Logo H2 EAUX SERVICES">
+        </div>
+
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="devis.html">Devis</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-hero">
+        <h1>Demander un devis</h1>
+        <p>Expliquez-nous votre besoin, nous vous recontacterons pour étudier votre demande.</p>
+    </section>
+
+    <section class="quote-page">
+        <div class="quote-intro">
+            <h2>Votre demande</h2>
+            <p>
+                Ce formulaire permet de préparer une première estimation selon le type de prestation,
+                la fréquence souhaitée et les caractéristiques du site.
+            </p>
+            <p>
+                La demande de devis est gratuite et sans engagement.
+            </p>
+        </div>
+
+        <form class="quote-form">
+            <div class="form-row">
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom">
+                </div>
+
+                <div>
+                    <label for="company">Société / Copropriété</label>
+                    <input type="text" id="company" name="company" placeholder="Nom de la société ou copropriété">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email">
+                </div>
+            </div>
+
+            <label for="service">Type de prestation</label>
+            <select id="service" name="service">
+                <option value="">Sélectionnez une prestation</option>
+                <option>Entretien de copropriété</option>
+                <option>Entretien de bureaux</option>
+                <option>Entretien de commerces</option>
+                <option>Remise en état</option>
+                <option>Relevé de compteurs</option>
+                <option>Autre demande</option>
+            </select>
+
+            <div class="form-row">
+                <div>
+                    <label for="city">Ville d'intervention</label>
+                    <input type="text" id="city" name="city" placeholder="Ex : Ivry-sur-Seine">
+                </div>
+
+                <div>
+                    <label for="surface">Surface approximative</label>
+                    <input type="text" id="surface" name="surface" placeholder="Ex : 200 m², 20 logements, 5 étages...">
+                </div>
+            </div>
+
+            <label for="frequency">Fréquence souhaitée</label>
+            <select id="frequency" name="frequency">
+                <option value="">Sélectionnez une fréquence</option>
+                <option>Intervention ponctuelle</option>
+                <option>Tous les 15 jours</option>
+                <option>Une fois par semaine</option>
+                <option>Deux fois par semaine</option>
+                <option>Plusieurs fois par semaine</option>
+                <option>Quotidiennement</option>
+                <option>À définir ensemble</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="7" placeholder="Décrivez votre besoin : type de bâtiment, surface, fréquence souhaitée, contraintes éventuelles, horaires d'intervention, etc."></textarea>
+
+            <button type="submit" class="form-btn">Demander mon devis gratuit</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <h3>H2 EAUX SERVICES</h3>
+            <p>Un entretien professionnel pensé pour votre tranquillité.</p>
+        </div>
+
+        <div>
+            <p>5 Place de l'Insurrection d'Août 1944</p>
+            <p>94200 Ivry-sur-Seine</p>
+            <p>06 11 59 39 92</p>
+            <p>contact@h2eaux-services.com</p>
+        </div>
+    </div>
+
+    <p class="footer-bottom">© H2 EAUX SERVICES - Tous droits réservés</p>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
