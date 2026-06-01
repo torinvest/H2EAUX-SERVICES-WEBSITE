@@ -45,7 +45,21 @@
             </p>
         </div>
 
-        <form class="quote-form">
+        <form
+    name="devis"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    class="quote-form"
+>   
+<input type="hidden" name="form-name" value="devis">
+
+<p hidden>
+    <label>
+        Ne pas remplir :
+        <input name="bot-field">
+    </label>
+</p>
             <div class="form-row">
                 <div>
                     <label for="name">Nom</label>
